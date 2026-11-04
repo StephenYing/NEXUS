@@ -1,0 +1,86 @@
+# -----------------------------------------------------------------------------
+# Large datasets and generated trajectories
+# -----------------------------------------------------------------------------
+/data/
+/data_downloads_*/
+/generated_data/
+/exported/
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# -----------------------------------------------------------------------------
+# Model checkpoints and experiment outputs
+# -----------------------------------------------------------------------------
+/nexus/checkpoints_multi_object/
+/eval_multiobj_benchmark/
+/eval_multiobj_rollout/
+/tmp/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.out
+*.err
+*.log
+
+# -----------------------------------------------------------------------------
+# Python caches, test caches, and generated PyG modules
+# -----------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+/torch_geometric.nn.conv.*_propagate_*.py
+
+# -----------------------------------------------------------------------------
+# Local environments and build artifacts
+# -----------------------------------------------------------------------------
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+build/
+dist/
+*.egg-info/
+
+# Common experiment trackers
+/runs/
+/wandb/
+events.out.tfevents.*
+
+# -----------------------------------------------------------------------------
+# Editors and operating-system files
+# -----------------------------------------------------------------------------
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# -----------------------------------------------------------------------------
+# Local Codex/audit state and machine-specific infrastructure notes
+# -----------------------------------------------------------------------------
+/.agents/
+/.codex/
+/tmp_audit_smoke.py
+/SERVER_PATHS_ANUBIS.md
+/新建 文本文档.txt
+
+# Accidental nested clone from the earlier repository setup.
+/NEXUS_implementation/
