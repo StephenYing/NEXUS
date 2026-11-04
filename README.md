@@ -1,8 +1,6 @@
-# NEXUS
+# NEXUS 
 
-Official implementation of **NEXUS: Neural Energy Fields for Physically Consistent Contact-Rich 3D Object Dynamics**.
-
-**NeurIPS 2026**
+Official implementation of **NEXUS: Neural Energy Fields for Physically Consistent Contact-Rich 3D Object Dynamics** [**NeurIPS 2026**].
 
 NEXUS models deformable 3D object dynamics using structural graphs, dynamic contact
 graphs, and learned energy and dissipation terms. This repository provides the
