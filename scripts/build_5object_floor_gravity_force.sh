@@ -2,7 +2,7 @@
 set -euo pipefail
 SRC_H5_DIR=${SRC_H5_DIR:?set SRC_H5_DIR}
 DST_DIR=${DST_DIR:?set DST_DIR}
-python build_multi_object_springmass_from_physctrl_h5.py \
+python scripts/build_multi_object_springmass_from_physctrl_h5.py \
   --src_h5_dir "$SRC_H5_DIR" \
   --dst_dir "$DST_DIR" \
   --n_objects 5 \

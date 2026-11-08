@@ -49,7 +49,20 @@ Export predicted and ground-truth trajectories, and visualize a generated ground
 
 ```bash
 python scripts/export_multiobj_trajectories.py --data /path/to/data/dataset_multiobj2 --ckpt /path/to/best.pth --out exported/nexus_2obj --horizon 48 --max_per_k_tuple 1
-python plot_multi_object_gif_3d.py --data /path/to/data/dataset_multiobj2 --episode 0 --out visualizations/nexus_2obj_gt.gif --show_floor --trail
+python scripts/plot_multi_object_gif_3d.py --data /path/to/data/dataset_multiobj2 --episode 0 --out visualizations/nexus_2obj_gt.gif --show_floor --trail
+```
+
+## Repository Layout
+
+Run the commands above from the repository root.
+
+- `nexus/`: model, dataset, training, and evaluation code.
+- `scripts/`: data generation, dataset inspection, trajectory export, and visualization utilities.
+
+To inspect a generated dataset:
+
+```bash
+python scripts/inspect_multi_object_npz.py --data /path/to/data/dataset_multiobj2
 ```
 
 ## License
